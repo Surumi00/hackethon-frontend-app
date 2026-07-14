@@ -88,8 +88,8 @@ const AddTeam = () => {
                         <input type="text"
                          className="form-control"
                           required
-                          name='LeaderPhone'
-                          value={input.LeaderPhone}
+                          name='leaderPhone'
+                          value={input.leaderPhone}
                           onChange={inputHandler}
                           />
                        
@@ -106,8 +106,8 @@ const AddTeam = () => {
                     <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                         <label htmlFor="" className="form-label">Number of Members</label>
                         <input type="text" className="form-control"
-                        name='numberofMembers'
-                         value={input.numberofMembers}
+                        name='numberOfMembers'
+                         value={input.numberOfMembers}
                             onChange={inputHandler}
                         />
                     </div>
